@@ -34,6 +34,7 @@ Primary ongoing projects:
 
 ## Machine Learning
 
+* A [WXPython version](https://github.com/LC-Linkous/Example_Genetic-Algorithm-Drawing) of [Samuel Hinton's Genetic Algorithm tutorials](https://cosmiccoding.com.au/tutorials/genetic_part_one/)
 
 ## GUI Examples
 ### Realtime Graphing
@@ -48,7 +49,7 @@ Primary ongoing projects:
 ### Dashboards
 
 ### General References
-* A [WXPython Multi-page example] (https://github.com/LC-Linkous/Example_wxPython-Pages)
+* A [WXPython Multi-page example](https://github.com/LC-Linkous/Example_wxPython-Pages)
 
 
 
