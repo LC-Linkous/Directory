@@ -1,4 +1,4 @@
-# Masterlist of Repository Projects
+# Directory of Repository Projects and Related Publications
 
 For more information on current projects and step-by-step tutorials, visit my main [project page](https://lc-linkous.github.io)
 <br>
