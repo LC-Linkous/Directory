@@ -9,20 +9,25 @@ Publications and research can be found on my [Google Scholar](https://scholar.go
 Interested in collaboration? Reach out to me on [Linkedin](https://www.linkedin.com/in/lauren-linkous)!
 
 
+Repositories are grouped together by topic, so expect some duplicate links. See individual repositories for a list of associated sources (papers, libraries, repositories), and associated publications.
+
+
 ## Table of contents
-* [Ongoing Projects](#Ongoing-Projects)
+* [Ongoing Projects](#ongoing-projects)
 * [AntennaCAT](#antennacat)
-* [Machine Learning](#Machine-Learning)
-* [Dashboards](#Dashboards)
-* [Realtime Graphing](#Realtime-Graphing)
-* [Arduino Projects](#Arduino-Projects)
-* [Raspberry Pi Projects](#Raspberry-Pi-Projects)
-* [Data Repositories](#Data-Repositories)
-* [Hardware Modifications](#Hardware-Modifications)
-* [Future Projects](#Future-Projects)
-* [Licensing](#Licensing)
-* [Publications](#Publications)
+* [Optimizers and Surrogate Models](#optimizers-and-surrogate-models)
+* [Objective Function Test Suite](#objective-function-test-suite)
+* [AntennaCalculator](#antennacalculator)
+* [Machine Learning](#machine-learning)
+* [GUI Examples](#gui-examples)
+  * [Realtime Graphing](#realtime-graphing)
+  * [Visual Machine Learning ](#visual-machine-learning)
+  * [General References](#general-references)
+* [Data Repositories and Tutorials](#data-repositories-and-tutorials)
+* [Licensing](#licensing)
+* [Publications](#publications)
 * [FAQs](#faqs)
+
 
 
 ## Ongoing Projects
@@ -38,23 +43,69 @@ Primary ongoing projects:
 
 ### Related Repositories 
 
+See the following sections:
+* [Optimizers and Surrogate Models](#optimizers-and-surrogate-models)
+* [AntennaCalculator](#antennacalculator)
+
+
+## Optimizers and Surrogate Models
+
+The following are a collection of state-machine-based optimizers compatable with the AntennaCAT project. Most, if not all, have been integrated into the main AntennaCAT project. These optimizers are functional stand alone for testing and publication transparency. Some have been incorporated into other research projects or publications, which are noted on the individual README pages.
+
+All optimizers and surrogate model examples work on state machines in order to incorporate substituting simulation for the objective functions in AntennaCAT. In
+
+
+**Summary of Optimizers**
+
+| Base Optimizer | Alternate version | Quantum-Inspired Optimizer |
+| ------------- | ------------- | ------------- |
+| [pso_python](https://github.com/LC-Linkous/pso_python) | [pso_basic](https://github.com/LC-Linkous/pso_python/tree/pso_basic) | [pso_quantum](https://github.com/LC-Linkous/pso_python/tree/pso_quantum)  |
+| [cat_swarm_python](https://github.com/LC-Linkous/cat_swarm_python) | [sand_cat_python](https://github.com/LC-Linkous/cat_swarm_python/tree/sand_cat_python)| [cat_swarm_quantum](https://github.com/LC-Linkous/cat_swarm_python/tree/cat_swarm_quantum) |
+| [chicken_swarm_python](https://github.com/LC-Linkous/chicken_swarm_python) | - | [chicken_swarm_quantum](https://github.com/LC-Linkous/chicken_swarm_python/tree/chicken_swarm_quantum)  |
+| [sweep_python](https://github.com/LC-Linkous/sweep_python)  | *alternates are options in base repo | -  |
+| [bayesian_optimization_python](https://github.com/LC-Linkous/bayesian_optimization_python)  | -| -  |
+
+
+**Summary of Surrogate Models**
+
+| Base Optimizer | Gaussian Process | Gradient Descent| Polynomial Regression |Support Vector Regression | Tested Single Obj. Func| Tested Multi Obj. Func|
+| ------------- | ------------- | ------------- |------------- | ------------- | ------------- | ------------- |
+| [pso_python](https://github.com/LC-Linkous/pso_python) |  - | - | - | - | - | - |
+| [pso_basic](https://github.com/LC-Linkous/pso_python/tree/pso_basic) |  - | - | - | - | - | - |
+| [pso_quantum](https://github.com/LC-Linkous/pso_python/tree/pso_quantum)  | - | - | - | - | - | - |
+| [cat_swarm_python](https://github.com/LC-Linkous/cat_swarm_python) |  - | - | - | - | - | - |
+| [sand_cat_python](https://github.com/LC-Linkous/cat_swarm_python/tree/sand_cat_python)|  - | - | - | - | - | - |
+| [cat_swarm_quantum](https://github.com/LC-Linkous/cat_swarm_python/tree/cat_swarm_quantum) | - | - | - | - | - | - |
+| [chicken_swarm_python](https://github.com/LC-Linkous/chicken_swarm_python) | - | - | - | - | - | - |
+| [chicken_swarm_quantum](https://github.com/LC-Linkous/chicken_swarm_python/tree/chicken_swarm_quantum)  | - | - | - | - | - | - |
+| [sweep_python](https://github.com/LC-Linkous/sweep_python)  | - | - | - | - | - | - |
+| [bayesian_optimization_python](https://github.com/LC-Linkous/bayesian_optimization_python) | - | - | - | - | - | - |
+
+The [Objective Function Test Suite](https://github.com/LC-Linkous/objective_function_suite) used to generate training data will be public Fall 2024
+
+
+### Repository Details
+---
+
  * J. Lundquist, L. Linkous (2024) pso_python (Version 1.0) [source code] https://github.com/jonathan46000/pso_python
     1) [pso_python](https://github.com/jonathan46000/pso_python) by [jonathan46000](https://github.com/jonathan46000)
-    2) the main branch with the [adaptive timestep PSO optimizer](https://github.com/jonathan46000/pso_python)
-    3) the [pso_basic branch](https://github.com/jonathan46000/pso_python/tree/pso_basic) without the timestep, for a baseline comparison
+    2) the main branch with the [adaptive timestep PSO optimizer](https://github.com/jonathan46000/pso_python)  by [jonathan46000](https://github.com/jonathan46000)
+    3) the [pso_basic branch](https://github.com/jonathan46000/pso_python/tree/pso_basic) without the timestep, for a baseline comparison by [LC-Linkous](https://github.com/LC-Linkous)
+    4) [LC-Linkous' development fork](https://github.com/LC-Linkous/pso_python)
        
-* L. Linkous, J. Lundquist (2024) sweep (Version 1.0) [source code] (https://github.com/LC-Linkous/sweep)
-   1) [sweep](https://github.com/LC-Linkous/sweep) by [LC-Linkous](https://github.com/LC-Linkous), a basic sweep optimization example compatable with AntennaCAT.
+* L. Linkous, J. Lundquist (2024) sweep_python (Version 1.0) [source code] (https://github.com/LC-Linkous/sweep_python)
+   1) [sweep](https://github.com/LC-Linkous/sweep_python) by [LC-Linkous](https://github.com/LC-Linkous), a basic sweep optimization example compatible with AntennaCAT. Features grid search and random search.
   
 * L. Linkous, J. Lundquist (2024) cat_swarm_python (Version 1.0) [source code] (https://github.com/LC-Linkous/cat_swarm_python)
     1) [cat_swarm_python](https://github.com/LC-Linkous/cat_swarm_python)  by [LC-Linkous](https://github.com/LC-Linkous),
-    2) the main branch with traditional cat swarm optimizer (LIT REFERENCE TBA!)
-    3) the cat_swarm_quantum branch with a quantum inspired approach
+    2) the main branch with [traditional cat swarm optimizer](https://github.com/LC-Linkous/cat_swarm_python/tree/main)  by [LC-Linkous](https://github.com/LC-Linkous)
+    3) the [sand cat swarm branch](https://github.com/LC-Linkous/cat_swarm_python/tree/sand_cat_python)  by [LC-Linkous](https://github.com/LC-Linkous)
+    4) the [quantum inspired cat swarm branch](https://github.com/LC-Linkous/cat_swarm_python/tree/cat_swarm_quantum) with a numpy-based quantum inspired (probabilistic) approach  by [LC-Linkous](https://github.com/LC-Linkous)
   
 * L. Linkous, J. Lundquist (2024) chicken_swarm_python (Version 1.0) [source code] (https://github.com/LC-Linkous/chicken_swarm_python)
-    1) [chicken_swarm_python](https://github.com/LC-Linkous/chicken_swarm_python)  by [LC-Linkous](https://github.com/LC-Linkous),
-    2) the main branch with traditional chicken swarm optimizer (LIT REFERENCE TBA!)
-    3) the chicken_swarm_quantum branch with a quantum inspired approach
+    1) [chicken_swarm_python](https://github.com/LC-Linkous/chicken_swarm_python)  by [LC-Linkous](https://github.com/LC-Linkous)
+    2) the main branch with [traditional chicken swarm optimizer](https://github.com/LC-Linkous/chicken_swarm_python) by [LC-Linkous](https://github.com/LC-Linkous)
+    3) the [chicken_swarm_quantum branch](https://github.com/LC-Linkous/chicken_swarm_python/tree/chicken_swarm_quantum) with a very simple, numpy-based quantum inspired approach by [LC-Linkous](https://github.com/LC-Linkous) 
   
 * J. Lundquist, L. Linkous (2023) multi_glods_python (Version 1.0) [source code] https://github.com/jonathan46000/multi_glods_python
   1) [multi_glods_python](https://github.com/jonathan46000/multi_glods_python) by [jonathan46000](https://github.com/jonathan46000)
@@ -62,12 +113,49 @@ Primary ongoing projects:
 
 * L. Linkous, (LC-Linkous) (2022) AntennaCAT (Version 3.0) [source code] https://github.com/LC-Linkous/AntennaCalculationAutotuningTool
    1) [AntennaCAT](https://github.com/LC-Linkous/AntennaCalculationAutotuningTool)
+   2) The repo is public, but code will not be public until Fall/Winter 2024
 
 * L. Linkous, (LC-Linkous) (2022) GeneticCAT (Version 3.0) [source code] https://github.com/LC-Linkous/GeneticCAT
-   1) [GeneticCAT](https://github.com/LC-Linkous/AntennaCalculationAutotuningTool)
+   1) Link TBA
       
+* L. Linkous, (LC-Linkous) (2024) Objective Function Suite (Version 1.0) https://github.com/LC-Linkous/objective_function_suite
+   1) [Objective Function Test Suite](https://github.com/LC-Linkous/objective_function_suite)
+   2) 50+ single, multi, and constrained objective functions compatable with the optimizer collection
+
+
+## Objective Function Test Suite
+
+
+
+### Repository Details
+---
+* L. Linkous, (LC-Linkous) (2024) Objective Function Suite (Version 1.0) https://github.com/LC-Linkous/objective_function_suite
+   1) [Objective Function Test Suite](https://github.com/LC-Linkous/objective_function_suite)
+   2) 50+ single, multi, and constrained objective functions compatable with the optimizer collection
+
+
+
+## AntennaCalculator
+
+<p align="center">
+        <img src="https://github.com/LC-Linkous/AntennaCalculator/blob/GUI/media/patch_preview.png" alt="screenshot of the GUI featuring the output of calculating the rectangular patch antenna" height="250">    </p>
+   <p align="center">Calculated and Previewed Microstrip Rectangular Patch Antenna</p>
+
+
+A forked GUI branch of [Dollarhyde's](https://github.com/Dollarhyde) [CLI-based AntennaCalculator](https://github.com/Dollarhyde/AntennaCalculator). This branch is a simplified version of how the AntennaCalculator is integrated into [LC-Linkous'](https://github.com/LC-Linkous) [AntennaCAT project](https://github.com/LC-Linkous/AntennaCalculationAutotuningTool). It features some matplotlib-based graphics to help visualize the antenna topologies based on user inputs. 
+
+The calculator features the following topologies:
+* Rectangular patch antenna, probe and microstrip versions
+* Quarter Wave Monopole
+* Half Wave Dipole
+
+### Repository Details
+---
 * E. Karincic, (Dollarhyde) (2022) Antenna Calculator (Version 2.0) [source code]. https://github.com/Dollarhyde/AntennaCalculator
-  1) [Antenna Calculator](https://github.com/LC-Linkous/AntennaCalculationAutotuningTool)
+  1) [Antenna Calculator](https://github.com/Dollarhyde/AntennaCalculator) by [Dollarhyde](https://github.com/Dollarhyde)
+  2) The original, [command-line based AntennaCalculator](https://github.com/Dollarhyde/AntennaCalculator)
+  3) The python-based [GUI wrapper of the AntennaCalculator](https://github.com/LC-Linkous/AntennaCalculator/tree/GUI)
+  4) [LC-Linkous' development fork](https://github.com/LC-Linkous/AntennaCalculator)
 
 
 
@@ -82,41 +170,14 @@ Primary ongoing projects:
 
 * A [WXPython GUI example](https://github.com/LC-Linkous/Example_wxPython-Pages) of realtime plotting. Mentioned previously on an old project blog, the page will be reposted.
 
-### Machine Learning
+### Visual Machine Learning 
 * A [WXPython version](https://github.com/LC-Linkous/Example_Genetic-Algorithm-Drawing) of [Samuel Hinton's Genetic Algorithm tutorials](https://cosmiccoding.com.au/tutorials/genetic_part_one/)
-
-### Dashboards
 
 ### General References
 * A [WXPython Multi-page example](https://github.com/LC-Linkous/Example_wxPython-Pages)
 
-
-
-## Arduino Projects
-
-
-## Raspberry Pi Projects
-
-
 ## Data Repositories
-The following repositories hold data used in several linked projects. This data was collected anonomously, and contains no human information. However, it may be useful for non-randomized displays.
 
-### Temperature data:
-
-
-### Light data:
-
-
-The data collected in the repositories below are used in several academic projects.
-
-### Material properties:
-
-
-
-## Hardware Modifications
-
-
-## Future Projects
 
 
 ## Licensing
@@ -143,7 +204,7 @@ The source code linked in this documentation has been released under a variety o
 ## FAQs
 
 ### When will the AntennaCAT source code be public?
-  Roughtly Fall 2024. The AntennaCAT project is my PhD dissertation. Related code (such as the optimizers and sample data/tutorials) are being released periodically, but the main AntennaCAT software suite will be released after my dissertation defense.
+Roughly Fall/Winter 2024. The AntennaCAT project is my PhD dissertation. Related code (such as the optimizers and sample data/tutorials) are being released periodically, but the main AntennaCAT software suite will be released after my dissertation defense.
 
 
 ### The hyperlinks to your repos are broken.
@@ -154,13 +215,8 @@ The source code linked in this documentation has been released under a variety o
   
   e.g, others.
   
-  Let me know and I'll update them. Some repos have been renamed, or code moved, as project have evolved in order to keep things readable. I try my best to update all of the links, but occasionally miss one.
+  Let me know and I'll update them. Some repos have been renamed, or code moved, as projects have evolved to keep things readable. I try my best to update all the links, but occasionally miss one.
 
 ### Have you heard of spell check?
   Yes. Soemtiems I can even ues it.
-
-
-
-
-
 
