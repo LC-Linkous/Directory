@@ -16,7 +16,7 @@ Repositories are grouped together by topic, so expect some duplicate links. See 
 * [Ongoing Projects](#ongoing-projects)
 * [AntennaCAT](#antennacat)
 * [Optimizers and Surrogate Models](#optimizers-and-surrogate-models)
-* [Objective Function Test Suite](#objective-function-test-suite)
+* [Objective Function Benchmark Suite](#objective-function-benchmark-suite)
 * [AntennaCalculator](#antennacalculator)
 * [Machine Learning](#machine-learning)
 * [GUI Examples](#gui-examples)
@@ -39,7 +39,13 @@ Primary ongoing projects:
 * Collaborative effort forked from [Dollarhyde's](https://github.com/Dollarhyde/AntennaCalculator), the [Antenna Calculator](https://github.com/LC-Linkous/AntennaCalculator) is the internal calculator for common topologies in the AntennaCAT project. Designs are being updated as they're tested/validated.
 
 ## AntennaCAT
- [Main Repo](https://github.com/LC-Linkous/AntennaCalculationAutotuningTool)
+
+<p align="center">
+ <img src="https://github.com/LC-Linkous/AntennaCalculationAutotuningTool/blob/main/media/antennaCAT-icons/transparent-antennaCAT-logo.png" height="300" >
+</p>
+
+
+Antenna Calculation and Autotuning (AntennaCAT) is a comprehensive implementation of machine learning to automate, evaluate, and optimize the antenna design process using EM simulation software. It utilizes a combined antenna designer and internal calculator to accelerate the CAD condsturction and EM simulation of several common topologies, while eliminating model disparity for automated data collection.
 
 ### Related Repositories 
 
@@ -47,6 +53,14 @@ See the following sections:
 * [Optimizers and Surrogate Models](#optimizers-and-surrogate-models)
 * [AntennaCalculator](#antennacalculator)
 
+* L. Linkous, (LC-Linkous) (2022) AntennaCAT (Version 3.0) [source code] https://github.com/LC-Linkous/AntennaCalculationAutotuningTool
+   1) The [AntennaCAT repository linked in papers prior to 2024](https://github.com/LC-Linkous/AntennaCalculationAutotuningTool)
+   2) The [consolidated AntennaCAT repository 
+   3) The repo is public, but code will not be public until Fall/Winter 2024
+
+* L. Linkous, (LC-Linkous) (2022) GeneticCAT (Version 3.0) [source code] https://github.com/LC-Linkous/GeneticCAT
+   1) Link TBA
+      
 
 ## Optimizers and Surrogate Models
 
@@ -111,27 +125,26 @@ The [Objective Function Test Suite](https://github.com/LC-Linkous/objective_func
   1) [multi_glods_python](https://github.com/jonathan46000/multi_glods_python) by [jonathan46000](https://github.com/jonathan46000)
   2) NOTE: multi_glods_python is currently getting an update to be compatible with AntennaCAT
 
-* L. Linkous, (LC-Linkous) (2022) AntennaCAT (Version 3.0) [source code] https://github.com/LC-Linkous/AntennaCalculationAutotuningTool
-   1) [AntennaCAT](https://github.com/LC-Linkous/AntennaCalculationAutotuningTool)
-   2) The repo is public, but code will not be public until Fall/Winter 2024
-
-* L. Linkous, (LC-Linkous) (2022) GeneticCAT (Version 3.0) [source code] https://github.com/LC-Linkous/GeneticCAT
-   1) Link TBA
-      
 * L. Linkous, (LC-Linkous) (2024) Objective Function Suite (Version 1.0) https://github.com/LC-Linkous/objective_function_suite
    1) [Objective Function Test Suite](https://github.com/LC-Linkous/objective_function_suite)
    2) 50+ single, multi, and constrained objective functions compatable with the optimizer collection
 
 
-## Objective Function Test Suite
+## Objective Function Benchmark Suite
 
+This repository contains a comprehensive benchmarking framework for evaluating the performance of various optimizers in hyperparameter tuning tasks, and the ability to collect data on optimizer performance for machine learning tasks. Additional objective functions updated periodically.
+
+It contains:
+1)  Objective Function Library: is a collection of 50+ single objective functions, multi objective functions, and constrained objective functions formatted with work with the optimizer collection in the [Optimizers and Surrogate Models](#Optimizers and Surrogate Models) sectiob
+2)  Optimizer Suite: The optimizers included in this project are static versions of the optimizers integrated into the [AntennaCAT](#https://github.com/LC-Linkous/AntennaCalculationAutotuningTool) software suite.
+3) Optimizer Performance Data Collection Scripts: Scripts for replicating the data collection method used to develop the AntennaCAT project.  
 
 
 ### Repository Details
 ---
 * L. Linkous, (LC-Linkous) (2024) Objective Function Suite (Version 1.0) https://github.com/LC-Linkous/objective_function_suite
    1) [Objective Function Test Suite](https://github.com/LC-Linkous/objective_function_suite)
-   2) 50+ single, multi, and constrained objective functions compatable with the optimizer collection
+   2) Contains the objective function library, a static version of the optimizer suite (for compatibility), and scripts used in data collection. 
 
 
 
@@ -176,7 +189,7 @@ The calculator features the following topologies:
 ### General References
 * A [WXPython Multi-page example](https://github.com/LC-Linkous/Example_wxPython-Pages)
 
-## Data Repositories
+## Data Repositories and Tutorials
 
 
 
