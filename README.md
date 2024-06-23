@@ -18,12 +18,12 @@ Repositories are grouped together by topic, so expect some duplicate links. See 
 * [Optimizers and Surrogate Models](#optimizers-and-surrogate-models)
 * [Objective Function Benchmark Suite](#objective-function-benchmark-suite)
 * [AntennaCalculator](#antennacalculator)
+* [Papers with Repositories and Tutorials](#papers-with-repositories-and-tutorials)
 * [Machine Learning](#machine-learning)
 * [GUI Examples](#gui-examples)
   * [Realtime Graphing](#realtime-graphing)
   * [Visual Machine Learning ](#visual-machine-learning)
   * [General References](#general-references)
-* [Data Repositories and Tutorials](#data-repositories-and-tutorials)
 * [Licensing](#licensing)
 * [Publications](#publications)
 * [FAQs](#faqs)
@@ -65,6 +65,20 @@ See the following sections:
 * L. Linkous, (LC-Linkous) (2022) GeneticCAT (Version 3.0) [source code] https://github.com/LC-Linkous/GeneticCAT
    1) Link TBA
       
+
+### Related Publications
+
+* L. Linkous, J. Lundquist, M. Suche, and E. Topsakal, "Machine Learning Assisted Hyperparameter Tuning for Optimization," 2024 IEEE USNC-URSI Radio Science Meeting (Joint with AP-S Symposium), Florence, Italy, 2024 (TO BE PRESENTED JULY 2024) [Online:] LINK TO BE ADDED
+
+* L. Linkous and E. Topsakal, "Machine Learning Assisted Optimization Methods for Automated Antenna Design," 2024 United States National Committee of URSI National Radio Science Meeting (USNC-URSI NRSM), Boulder, CO, USA, 2024, pp. 377-378, doi: 10.23919/USNC-URSINRSM60317.2024.10464597. [Online:] https://ieeexplore.ieee.org/abstract/document/10464597
+
+* L. Linkous, J. Lundquist and E. Topsakal, "AntennaCAT: Automated Antenna Design and Tuning Tool," 2023 IEEE USNC-URSI Radio Science Meeting (Joint with AP-S Symposium), Portland, OR, USA, 2023, pp. 89-90, doi: 10.23919/USNC-URSI54200.2023.10289238.  [Online:] https://ieeexplore.ieee.org/abstract/document/10289238
+
+* E. Karincic, E. Topsakal, and L. Linkous.  "Patch Antenna Calculations and Fabrication Made Simple for Cyber Security Research,"  2023 ASEE Annual Conference & Exposition, Baltimore , Maryland, 2023, June.  ASEE Conferences, 2023. [Online:] https://peer.asee.org/43974 
+
+* L. Linkous, E. Karincic, J. Lundquist and E. Topsakal, "Automated Antenna Calculation, Design and Tuning Tool for HFSS," 2023 United States National Committee of URSI National Radio Science Meeting (USNC-URSI NRSM), Boulder, CO, USA, 2023, pp. 229-230, doi: 10.23919/USNC-URSINRSM57470.2023.10043119.  [Online:] https://ieeexplore.ieee.org/abstract/document/10043119
+
+
 
 ## Optimizers and Surrogate Models
 
@@ -151,6 +165,10 @@ It contains:
    2) Contains the objective function library, a static version of the optimizer suite (for compatibility), and scripts used in data collection. 
 
 
+### Related Publications
+
+* L. Linkous, J. Lundquist, M. Suche, and E. Topsakal, "Machine Learning Assisted Hyperparameter Tuning for Optimization," 2024 IEEE USNC-URSI Radio Science Meeting (Joint with AP-S Symposium), Florence, Italy, 2024 (TO BE PRESENTED JULY 2024) [Online:] LINK TO BE ADDED
+    
 
 ## AntennaCalculator
 
@@ -168,6 +186,55 @@ The calculator features the following topologies:
 
 ### Repository Details
 ---
+* E. Karincic, (Dollarhyde) (2022) Antenna Calculator (Version 2.0) [source code]. https://github.com/Dollarhyde/AntennaCalculator
+  1) [Antenna Calculator](https://github.com/Dollarhyde/AntennaCalculator) by [Dollarhyde](https://github.com/Dollarhyde)
+  2) The original, [command-line based AntennaCalculator](https://github.com/Dollarhyde/AntennaCalculator)
+  3) The python-based [GUI wrapper of the AntennaCalculator](https://github.com/LC-Linkous/AntennaCalculator/tree/GUI)
+  4) [LC-Linkous' development fork](https://github.com/LC-Linkous/AntennaCalculator)
+
+
+### Related Publications
+
+* E. Karincic, E. Topsakal, and L. Linkous.  "Patch Antenna Calculations and Fabrication Made Simple for Cyber Security Research,"  2023 ASEE Annual Conference & Exposition, Baltimore , Maryland, 2023, June.  ASEE Conferences, 2023. [Online:] https://peer.asee.org/43974 
+
+
+## Papers with Repositories and Tutorials
+
+### _Machine Learning Assisted Hyperparameter Tuning for Optimization_
+**Paper**:
+
+L. Linkous, J. Lundquist, M. Suche, and E. Topsakal, "Machine Learning Assisted Hyperparameter Tuning for Optimization," 2024 IEEE USNC-URSI Radio Science Meeting (Joint with AP-S Symposium), Florence, Italy, 2024 (TO BE PRESENTED JULY 2024) [Online:] LINK TO BE ADDED
+
+**Repository**:
+
+* L. Linkous (LC-Linkous) (2023) PSO_datacollection (Version 1.0) [source code]. https://github.com/LC-Linkous/PSO_datacollection
+  1) [Antenna Calculator](https://github.com/LC-Linkous/PSO_datacollection) by [LC-Linkous](https://github.com/LC-Linkous)
+  2) This is the original repository linked in publication, but it has since been renamed as other presentations have been added
+
+* L. Linkous (LC-Linkous) (2023) 2024-APS-URSI-3323 (Version 2.0) [source code]. https://github.com/LC-Linkous/2024-APS-URSI-3323
+  1) [2024-APS-URSI-3323](https://github.com/LC-Linkous/2024-APS-URSI-3323)  by [LC-Linkous](https://github.com/LC-Linkous)
+  2) Repository hosting data and select machine learning examples from publication ["Machine Learning Assisted Hyperparameter Tuning for Optimization"]
+
+### _Machine Learning Assisted Optimization Methods for Automated Antenna Design_
+**Paper**:
+
+L. Linkous and E. Topsakal, "Machine Learning Assisted Optimization Methods for Automated Antenna Design," 2024 United States National Committee of URSI National Radio Science Meeting (USNC-URSI NRSM), Boulder, CO, USA, 2024, pp. 377-378, doi: 10.23919/USNC-URSINRSM60317.2024.10464597. [Online:] https://ieeexplore.ieee.org/abstract/document/10464597
+
+**Repository**:
+
+* L. Linkous (LC-Linkous) (2023) 2024-URSI-NRSM-1265 (Version 1.0) [source code]. https://github.com/LC-Linkous/2024-URSI-NRSM-1265
+  1) [2024-URSI-NRSM-1265](https://github.com/LC-Linkous/2024-URSI-NRSM-1265)  by [LC-Linkous](https://github.com/LC-Linkous)
+  2) Repository for publication ["Machine Learning Assisted Optimization Methods for Automated Antenna Design"](https://ieeexplore.ieee.org/abstract/document/10464597)
+  3) Features 5 tutorials using Jupyter Notebook to process and analyze a subset of simulation data for patch antennas
+
+
+### _Patch Antenna Calculations and Fabrication Made Simple for Cyber Security Research_
+**Paper**:
+
+E. Karincic, E. Topsakal, and L. Linkous.  "Patch Antenna Calculations and Fabrication Made Simple for Cyber Security Research,"  2023 ASEE Annual Conference & Exposition, Baltimore , Maryland, 2023, June.  ASEE Conferences, 2023. [Online:] https://peer.asee.org/43974 
+
+**Repository**:
+
 * E. Karincic, (Dollarhyde) (2022) Antenna Calculator (Version 2.0) [source code]. https://github.com/Dollarhyde/AntennaCalculator
   1) [Antenna Calculator](https://github.com/Dollarhyde/AntennaCalculator) by [Dollarhyde](https://github.com/Dollarhyde)
   2) The original, [command-line based AntennaCalculator](https://github.com/Dollarhyde/AntennaCalculator)
@@ -193,7 +260,6 @@ The calculator features the following topologies:
 ### General References
 * A [WXPython Multi-page example](https://github.com/LC-Linkous/Example_wxPython-Pages)
 
-## Data Repositories and Tutorials
 
 
 
@@ -206,16 +272,15 @@ The source code linked in this documentation has been released under a variety o
 
 ## Publications
 
-* L. Linkous, J. Lundquist, M. Suche, and E. Topsakal, "Machine Learning Assisted Hyperparameter Tuning for Optimization," 2024 IEEE USNC-URSI Radio Science Meeting (Joint with AP-S Symposium), Florence, Italy, 2024 (TO BE PRESENTED JULY 2024)
+* L. Linkous, J. Lundquist, M. Suche, and E. Topsakal, "Machine Learning Assisted Hyperparameter Tuning for Optimization," 2024 IEEE USNC-URSI Radio Science Meeting (Joint with AP-S Symposium), Florence, Italy, 2024 (TO BE PRESENTED JULY 2024) [Online:] LINK TO BE ADDED
 
-* L. Linkous and E. Topsakal, "Machine Learning Assisted Optimization Methods for Automated Antenna Design," 2024 United States National Committee of URSI National Radio Science Meeting (USNC-URSI NRSM), Boulder, CO, USA, 2024, pp. 377-378, doi: 10.23919/USNC-URSINRSM60317.2024.10464597.
+* L. Linkous and E. Topsakal, "Machine Learning Assisted Optimization Methods for Automated Antenna Design," 2024 United States National Committee of URSI National Radio Science Meeting (USNC-URSI NRSM), Boulder, CO, USA, 2024, pp. 377-378, doi: 10.23919/USNC-URSINRSM60317.2024.10464597. [Online:] https://ieeexplore.ieee.org/abstract/document/10464597
 
-* L. Linkous, J. Lundquist and E. Topsakal, "AntennaCAT: Automated Antenna Design and Tuning Tool," 2023 IEEE USNC-URSI Radio Science Meeting (Joint with AP-S Symposium), Portland, OR, USA, 2023, pp. 89-90, doi: 10.23919/USNC-URSI54200.2023.10289238.
+* L. Linkous, J. Lundquist and E. Topsakal, "AntennaCAT: Automated Antenna Design and Tuning Tool," 2023 IEEE USNC-URSI Radio Science Meeting (Joint with AP-S Symposium), Portland, OR, USA, 2023, pp. 89-90, doi: 10.23919/USNC-URSI54200.2023.10289238.  [Online:] https://ieeexplore.ieee.org/abstract/document/10289238
 
 * E. Karincic, E. Topsakal, and L. Linkous.  "Patch Antenna Calculations and Fabrication Made Simple for Cyber Security Research,"  2023 ASEE Annual Conference & Exposition, Baltimore , Maryland, 2023, June.  ASEE Conferences, 2023. [Online:] https://peer.asee.org/43974 
 
-* L. Linkous, E. Karincic, J. Lundquist and E. Topsakal, "Automated Antenna Calculation, Design and Tuning Tool for HFSS," 2023 United States National Committee of URSI National Radio Science Meeting (USNC-URSI NRSM), Boulder, CO, USA, 2023, pp. 229-230, doi: 10.23919/USNC-URSINRSM57470.2023.10043119.
-
+* L. Linkous, E. Karincic, J. Lundquist and E. Topsakal, "Automated Antenna Calculation, Design and Tuning Tool for HFSS," 2023 United States National Committee of URSI National Radio Science Meeting (USNC-URSI NRSM), Boulder, CO, USA, 2023, pp. 229-230, doi: 10.23919/USNC-URSINRSM57470.2023.10043119.  [Online:] https://ieeexplore.ieee.org/abstract/document/10043119
 
 
 ## FAQs
