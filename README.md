@@ -53,6 +53,10 @@ See the following sections:
 * [Optimizers and Surrogate Models](#optimizers-and-surrogate-models)
 * [AntennaCalculator](#antennacalculator)
 
+
+### Repository Details
+---
+
 * L. Linkous, (LC-Linkous) (2022) AntennaCAT (Version 3.0) [source code] https://github.com/LC-Linkous/AntennaCalculationAutotuningTool
    1) The [AntennaCAT repository linked in papers prior to 2024](https://github.com/LC-Linkous/AntennaCalculationAutotuningTool)
    2) The [consolidated AntennaCAT repository 
@@ -135,9 +139,9 @@ The [Objective Function Test Suite](https://github.com/LC-Linkous/objective_func
 This repository contains a comprehensive benchmarking framework for evaluating the performance of various optimizers in hyperparameter tuning tasks, and the ability to collect data on optimizer performance for machine learning tasks. Additional objective functions updated periodically.
 
 It contains:
-1)  Objective Function Library: is a collection of 50+ single objective functions, multi objective functions, and constrained objective functions formatted with work with the optimizer collection in the [Optimizers and Surrogate Models](#Optimizers and Surrogate Models) sectiob
-2)  Optimizer Suite: The optimizers included in this project are static versions of the optimizers integrated into the [AntennaCAT](#https://github.com/LC-Linkous/AntennaCalculationAutotuningTool) software suite.
-3) Optimizer Performance Data Collection Scripts: Scripts for replicating the data collection method used to develop the AntennaCAT project.  
+1)  **Objective Function Library**: is a collection of 50+ single objective functions, multi objective functions, and constrained objective functions formatted with work with the optimizer collection in the [Optimizers and Surrogate Models](#Optimizers and Surrogate Models) sectiob
+2)  **Optimizer Suite**: The optimizers included in this project are static versions of the optimizers integrated into the [AntennaCAT](#https://github.com/LC-Linkous/AntennaCalculationAutotuningTool) software suite.
+3) **Optimizer Performance Data Collection**: Scripts for replicating the data collection method used to develop the AntennaCAT project.  
 
 
 ### Repository Details
