@@ -6,7 +6,7 @@ For more information on current projects and step-by-step tutorials, visit my ma
 Publications and research can be found on my [Google Scholar](https://scholar.google.com/citations?user=UHCDo0MAAAAJ&hl=en&oi=ao) and [ResearchGate](https://www.researchgate.net/profile/Lauren-Linkous) pages
 <br>
 <br>
-Interested in collaboration? Reach out to me on [Linkedin](https://www.linkedin.com/in/lauren-linkous)!
+Interested in collaboration? Reach out to me on [LinkedIn](https://www.linkedin.com/in/lauren-linkous)!
 
 
 Repositories are grouped together by topic, so expect some duplicate links. See individual repositories for a list of associated sources (papers, libraries, repositories), and associated publications.
@@ -45,7 +45,7 @@ Primary ongoing projects:
 </p>
 
 
-Antenna Calculation and Autotuning (AntennaCAT) is a comprehensive implementation of machine learning to automate, evaluate, and optimize the antenna design process using EM simulation software. It utilizes a combined antenna designer and internal calculator to accelerate the CAD condsturction and EM simulation of several common topologies, while eliminating model disparity for automated data collection.
+Antenna Calculation and Autotuning (AntennaCAT) is a comprehensive implementation of machine learning to automate, evaluate, and optimize the antenna design process using EM simulation software. It utilizes a combined antenna designer and internal calculator to accelerate the CAD construction and EM simulation of several common topologies, while eliminating model disparity for automated data collection.
 
 ### Related Repositories 
 
@@ -82,9 +82,9 @@ See the following sections:
 
 ## Optimizers and Surrogate Models
 
-The following are a collection of state-machine-based optimizers compatable with the AntennaCAT project. Most, if not all, have been integrated into the main AntennaCAT project. These optimizers are functional stand alone for testing and publication transparency. Some have been incorporated into other research projects or publications, which are noted on the individual README pages.
+The following are a collection of state-machine-based optimizers compatible with the AntennaCAT project. Most, if not all, have been integrated into the main AntennaCAT project. These optimizers are functional stand alone for testing and publication transparency. Some have been incorporated into other research projects or publications, which are noted on the individual README pages.
 
-All optimizers and surrogate model examples work on state machines in order to incorporate substituting simulation for the objective functions in AntennaCAT. In
+All optimizers and surrogate model examples work on state machine logic in order to incorporate substituting simulation for the objective functions in AntennaCAT. 
 
 
 **Summary of Optimizers**
@@ -94,24 +94,16 @@ All optimizers and surrogate model examples work on state machines in order to i
 | [pso_python](https://github.com/LC-Linkous/pso_python) | [pso_basic](https://github.com/LC-Linkous/pso_python/tree/pso_basic) | [pso_quantum](https://github.com/LC-Linkous/pso_python/tree/pso_quantum)  |
 | [cat_swarm_python](https://github.com/LC-Linkous/cat_swarm_python) | [sand_cat_python](https://github.com/LC-Linkous/cat_swarm_python/tree/sand_cat_python)| [cat_swarm_quantum](https://github.com/LC-Linkous/cat_swarm_python/tree/cat_swarm_quantum) |
 | [chicken_swarm_python](https://github.com/LC-Linkous/chicken_swarm_python) | - | [chicken_swarm_quantum](https://github.com/LC-Linkous/chicken_swarm_python/tree/chicken_swarm_quantum)  |
-| [sweep_python](https://github.com/LC-Linkous/sweep_python)  | *alternates are options in base repo | -  |
-| [bayesian_optimization_python](https://github.com/LC-Linkous/bayesian_optimization_python)  | -| -  |
+| [sweep_python](https://github.com/LC-Linkous/sweep_python)  | *alternates in base repo | -  |
+| [bayesian optimization_python](https://github.com/LC-Linkous/bayesian_optimization_python)  | *interchangable surrogate models <br> included in base repo| -  |
+| [multi_glods_python](https://github.com/LC-Linkous/multi_glods_python)| - | - |
 
 
 **Summary of Surrogate Models**
 
-| Base Optimizer | Gaussian Process | Gradient Descent| Polynomial Regression |Support Vector Regression | Tested Single Obj. Func| Tested Multi Obj. Func|
-| ------------- | ------------- | ------------- |------------- | ------------- | ------------- | ------------- |
-| [pso_python](https://github.com/LC-Linkous/pso_python) |  - | - | - | - | - | - |
-| [pso_basic](https://github.com/LC-Linkous/pso_python/tree/pso_basic) |  - | - | - | - | - | - |
-| [pso_quantum](https://github.com/LC-Linkous/pso_python/tree/pso_quantum)  | - | - | - | - | - | - |
-| [cat_swarm_python](https://github.com/LC-Linkous/cat_swarm_python) |  - | - | - | - | - | - |
-| [sand_cat_python](https://github.com/LC-Linkous/cat_swarm_python/tree/sand_cat_python)|  - | - | - | - | - | - |
-| [cat_swarm_quantum](https://github.com/LC-Linkous/cat_swarm_python/tree/cat_swarm_quantum) | - | - | - | - | - | - |
-| [chicken_swarm_python](https://github.com/LC-Linkous/chicken_swarm_python) | - | - | - | - | - | - |
-| [chicken_swarm_quantum](https://github.com/LC-Linkous/chicken_swarm_python/tree/chicken_swarm_quantum)  | - | - | - | - | - | - |
-| [sweep_python](https://github.com/LC-Linkous/sweep_python)  | - | - | - | - | - | - |
-| [bayesian_optimization_python](https://github.com/LC-Linkous/bayesian_optimization_python) | - | - | - | - | - | - |
+
+**Objective Functions**
+
 
 The [Objective Function Test Suite](https://github.com/LC-Linkous/objective_function_suite) used to generate training data will be public Fall 2024
 
@@ -141,11 +133,11 @@ The [Objective Function Test Suite](https://github.com/LC-Linkous/objective_func
   
 * J. Lundquist, L. Linkous (2023) multi_glods_python (Version 1.0) [source code] https://github.com/jonathan46000/multi_glods_python
   1) [multi_glods_python](https://github.com/jonathan46000/multi_glods_python) by [jonathan46000](https://github.com/jonathan46000)
-  2) NOTE: multi_glods_python is currently getting an update to be compatible with AntennaCAT
+  2) The main branch and fork are now compatible with AntennaCAT
 
 * L. Linkous, (LC-Linkous) (2024) Objective Function Suite (Version 1.0) https://github.com/LC-Linkous/objective_function_suite
    1) [Objective Function Test Suite](https://github.com/LC-Linkous/objective_function_suite)
-   2) 50+ single, multi, and constrained objective functions compatable with the optimizer collection
+   2) 50+ single, multi, and constrained objective functions compatible with the optimizer collection
 
 
 ## Objective Function Benchmark Suite
@@ -153,7 +145,7 @@ The [Objective Function Test Suite](https://github.com/LC-Linkous/objective_func
 This repository contains a comprehensive benchmarking framework for evaluating the performance of various optimizers in hyperparameter tuning tasks, and the ability to collect data on optimizer performance for machine learning tasks. Additional objective functions updated periodically.
 
 It contains:
-1)  **Objective Function Library**: is a collection of 50+ single objective functions, multi objective functions, and constrained objective functions formatted with work with the optimizer collection in the [Optimizers and Surrogate Models](#Optimizers and Surrogate Models) sectiob
+1)  **Objective Function Library**: is a collection of 50+ single objective functions, multi objective functions, and constrained objective functions formatted with work with the optimizer collection in the [Optimizers and Surrogate Models](#Optimizers and Surrogate Models) section
 2)  **Optimizer Suite**: The optimizers included in this project are static versions of the optimizers integrated into the [AntennaCAT](#https://github.com/LC-Linkous/AntennaCalculationAutotuningTool) software suite.
 3) **Optimizer Performance Data Collection**: Scripts for replicating the data collection method used to develop the AntennaCAT project.  
 
