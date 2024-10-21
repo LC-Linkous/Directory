@@ -59,8 +59,7 @@ See the following sections:
 
 * L. Linkous, (LC-Linkous) (2022) AntennaCAT (Version 3.0) [source code] https://github.com/LC-Linkous/AntennaCalculationAutotuningTool
    1) The [AntennaCAT repository linked in papers prior to 2024](https://github.com/LC-Linkous/AntennaCalculationAutotuningTool)
-   2) The [consolidated AntennaCAT repository 
-   3) The repo is public, but code will not be public until Fall/Winter 2024
+   2) The repo is public, but code will not be public until Fall/Winter 2024
 
 * L. Linkous, (LC-Linkous) (2022) GeneticCAT (Version 3.0) [source code] https://github.com/LC-Linkous/GeneticCAT
    1) Link TBA
@@ -68,7 +67,9 @@ See the following sections:
 
 ### Related Publications
 
-* L. Linkous, J. Lundquist, M. Suche, and E. Topsakal, "Machine Learning Assisted Hyperparameter Tuning for Optimization," 2024 IEEE USNC-URSI Radio Science Meeting (Joint with AP-S Symposium), Florence, Italy, 2024 (TO BE PRESENTED JULY 2024) [Online:] LINK TO BE ADDED
+* L. Linkous, “Machine Learning Assisted Optimization for Calculation and Automated Tuning of Antennas,” VCU Scholars Compass, 2024. https://scholarscompass.vcu.edu/etd/7841/ (accessed Oct. 21, 2024).
+
+* L. Linkous, J. Lundquist, M. Suche and E. Topsakal, "Machine Learning Assisted Hyperparameter Tuning for Optimization," 2024 IEEE INC-USNC-URSI Radio Science Meeting (Joint with AP-S Symposium), Florence, Italy, 2024, pp. 107-108, doi: 10.23919/INC-USNC-URSI61303.2024.10632482.
 
 * L. Linkous and E. Topsakal, "Machine Learning Assisted Optimization Methods for Automated Antenna Design," 2024 United States National Committee of URSI National Radio Science Meeting (USNC-URSI NRSM), Boulder, CO, USA, 2024, pp. 377-378, doi: 10.23919/USNC-URSINRSM60317.2024.10464597. [Online:] https://ieeexplore.ieee.org/abstract/document/10464597
 
