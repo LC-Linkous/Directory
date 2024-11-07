@@ -16,11 +16,13 @@ Repositories are grouped together by topic, so expect some duplicate links. See 
 * [Objective Function Benchmark Suite](#objective-function-benchmark-suite)
 * [AntennaCalculator](#antennacalculator)
 * [Papers with Repositories and Tutorials](#papers-with-repositories-and-tutorials)
-* [Machine Learning](#machine-learning)
-* [GUI Examples](#gui-examples)
-  * [Realtime Graphing](#realtime-graphing)
-  * [Visual Machine Learning ](#visual-machine-learning)
-  * [General References](#general-references)
+* [Tutorials](#tutorials)
+* [Small Project Examples](#small-project-examples)
+  * [Machine Learning](#machine-learning)
+  * [GUI Examples](#gui-examples)
+    * [Realtime Graphing](#realtime-graphing)
+    * [Visual Machine Learning ](#visual-machine-learning)
+    * [General References](#general-references)
 * [Licensing](#licensing)
 * [Publications](#publications)
 * [FAQs](#faqs)
@@ -33,6 +35,10 @@ Primary ongoing projects:
 * The [AntennaCalculationAutotuningTool](https://github.com/LC-Linkous/AntennaCalculationAutotuningTool), "AntennaCAT", is an ongoing open-source project to make antenna design easier by automating the design, calculation, scripting, and tuning of antennas created in several common simulation software. It is designed to be compatible with multiple EM simulation software.   
 
 * Collaborative effort forked from [Dollarhyde's](https://github.com/Dollarhyde/AntennaCalculator), the [Antenna Calculator](https://github.com/LC-Linkous/AntennaCalculator) is the internal calculator for common topologies in the AntennaCAT project. Designs are being updated as they're tested/validated.
+
+* Project documentation and [tutorial series](#tutorials)
+
+
 
 ## AntennaCAT
 
@@ -56,6 +62,7 @@ See the following sections:
 
 
 ## Optimizers and Surrogate Models
+---
 
 The following are a collection of state-machine-based optimizers compatible with the AntennaCAT project. Most, if not all, have been integrated into the main AntennaCAT project. These optimizers are functional stand alone for testing and publication transparency. Some have been incorporated into other research projects or publications, which are noted on the individual README pages.
 
@@ -79,8 +86,8 @@ All optimizers and surrogate model examples work on state machine logic in order
 The [Objective Function Test Suite](https://github.com/LC-Linkous/objective_function_suite) used to generate training data
 
 
-### Repository Details
----
+### **Repository Details**
+
 
  * J. Lundquist, L. Linkous (2024) pso_python (Version 1.0) [source code] https://github.com/jonathan46000/pso_python
     1) [pso_python](https://github.com/jonathan46000/pso_python) by [jonathan46000](https://github.com/jonathan46000)
@@ -112,6 +119,7 @@ The [Objective Function Test Suite](https://github.com/LC-Linkous/objective_func
 
 
 ## Objective Function Benchmark Suite
+--- 
 
 This repository contains a comprehensive benchmarking framework for evaluating the performance of various optimizers in hyperparameter tuning tasks, and the ability to collect data on optimizer performance for machine learning tasks. Additional objective functions updated periodically.
 
@@ -121,14 +129,15 @@ It contains:
 3) **Optimizer Performance Data Collection**: Scripts for replicating the data collection method used to develop the AntennaCAT project.  
 
 
-### Repository Details
----
+### **Repository Details**
+
 * L. Linkous, (LC-Linkous) (2024) Objective Function Suite (Version 1.0) https://github.com/LC-Linkous/objective_function_suite
    1) [Objective Function Test Suite](https://github.com/LC-Linkous/objective_function_suite)
    2) Contains the objective function library, a static version of the optimizer suite (for compatibility), and scripts used in data collection. 
     
 
 ## AntennaCalculator
+---
 
 <p align="center">
         <img src="https://github.com/LC-Linkous/AntennaCalculator/blob/GUI/media/patch_preview.png" alt="screenshot of the GUI featuring the output of calculating the rectangular patch antenna" height="250">    </p>
@@ -142,7 +151,7 @@ The calculator features the following topologies:
 * Quarter Wave Monopole
 * Half Wave Dipole
 
-### Repository Details
+### **Repository Details**
 ---
 * E. Karincic, (Dollarhyde) (2022) Antenna Calculator (Version 2.0) [source code]. https://github.com/Dollarhyde/AntennaCalculator
   1) [Antenna Calculator](https://github.com/Dollarhyde/AntennaCalculator) by [Dollarhyde](https://github.com/Dollarhyde)
@@ -151,12 +160,9 @@ The calculator features the following topologies:
   4) [LC-Linkous' development fork](https://github.com/LC-Linkous/AntennaCalculator)
 
 
-### Related Publications
-
-* E. Karincic, E. Topsakal, and L. Linkous.  "Patch Antenna Calculations and Fabrication Made Simple for Cyber Security Research,"  2023 ASEE Annual Conference & Exposition, Baltimore , Maryland, 2023, June.  ASEE Conferences, 2023. [Online:] https://peer.asee.org/43974 
-
 
 ## Papers with Repositories and Tutorials
+--- 
 
 ### _Machine Learning Assisted Hyperparameter Tuning for Optimization_
 **Paper**:
@@ -200,33 +206,50 @@ E. Karincic, E. Topsakal, and L. Linkous.  "Patch Antenna Calculations and Fabri
   4) [LC-Linkous' development fork](https://github.com/LC-Linkous/AntennaCalculator)
 
 
+## Tutorials
+---
 
-## Machine Learning
+| Project  |  Need Anything Not in the Code Repo?       |       Tutorial Links       |
+|-----------|--------------------------------------------|----------------------------|
+| [AntennaCAT](https://github.com/LC-Linkous/AntennaCalculationAutotuningTool) | Needs EM simulation software license | <ul><li>[Main Wiki](https://github.com/LC-Linkous/AntennaCalculationAutotuningTool/wiki)</li><li>[Guides and Tutorials page](https://github.com/LC-Linkous/AntennaCalculationAutotuningTool/wiki/Guides-and-Tutorials)</li></ul> |
+| [JTAGenum project fork](https://github.com/LC-Linkous/JTAGenum)     | Hardware reqs. in the README  |  <ul><li>[Forked Project Wiki](https://github.com/LC-Linkous/JTAGenum/wiki)</li><li>pages in the wiki associated with this repository. TODO</li></ul>       |
+|            |                 |         |
+|            |                 |         |
+|            |                 |         |
+
+
+
+## Small Project Examples
+---
+
+### **Machine Learning**
 
 * A [WXPython version](https://github.com/LC-Linkous/Example_Genetic-Algorithm-Drawing) of [Samuel Hinton's Genetic Algorithm tutorials](https://cosmiccoding.com.au/tutorials/genetic_part_one/)
 
-## GUI Examples
-### Realtime Graphing
+### **GUI Examples**
+#### Realtime Graphing
 
 * A [TK GUI example](https://github.com/LC-Linkous/Example_Matplotlib-Tkinter) of realtime plotting. Mentioned previously on an old project blog, the page will be reposted.
 
 * A [WXPython GUI example](https://github.com/LC-Linkous/Example_wxPython-Pages) of realtime plotting. Mentioned previously on an old project blog, the page will be reposted.
 
-### Visual Machine Learning 
+#### Visual Machine Learning 
 * A [WXPython version](https://github.com/LC-Linkous/Example_Genetic-Algorithm-Drawing) of [Samuel Hinton's Genetic Algorithm tutorials](https://cosmiccoding.com.au/tutorials/genetic_part_one/)
 
-### General References
+#### General References
 * A [WXPython Multi-page example](https://github.com/LC-Linkous/Example_wxPython-Pages)
 
 
 
 
 ## Licensing
+---
 
 The source code linked in this documentation has been released under a variety of licenses, some as requested from their original source publication, so refer to the individual READMEs of each project (and the LICENSE file) for the most accurate information.
 
 
 ## Publications
+---
 
 
 * L. Linkous, “Machine Learning Assisted Optimization for Calculation and Automated Tuning of Antennas,” VCU Scholars Compass, 2024. https://scholarscompass.vcu.edu/etd/7841/ (accessed Oct. 21, 2024).
@@ -244,6 +267,7 @@ The source code linked in this documentation has been released under a variety o
 
 
 ## FAQs
+--- 
 
 ### When will the AntennaCAT source code be public?
 Roughly Fall/Winter 2024. The AntennaCAT project is my PhD dissertation. Related code (such as the optimizers and sample data/tutorials) are being released periodically, but the main AntennaCAT software suite will be released after my dissertation defense.
