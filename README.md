@@ -71,14 +71,16 @@ All optimizers and surrogate model examples work on state machine logic in order
 
 **Summary of Optimizers**
 
+
 | Base Optimizer | Alternate Version | Quantum-Inspired Optimizer | Surrogate Model Version |
 | ------------- | ------------- | ------------- |------------- |
-| [pso_python](https://github.com/LC-Linkous/pso_python) | [pso_basic](https://github.com/LC-Linkous/pso_python/tree/pso_basic) | [pso_quantum](https://github.com/LC-Linkous/pso_python/tree/pso_quantum)  | |
-| [cat_swarm_python](https://github.com/LC-Linkous/cat_swarm_python) | [sand_cat_python](https://github.com/LC-Linkous/cat_swarm_python/tree/sand_cat_python)| [cat_swarm_quantum](https://github.com/LC-Linkous/cat_swarm_python/tree/cat_swarm_quantum) | |
-| [chicken_swarm_python](https://github.com/LC-Linkous/chicken_swarm_python) | [2015 improved chicken swarm](https://github.com/LC-Linkous/chicken_swarm_python/tree/improved_chicken_swarm) | [chicken_swarm_quantum](https://github.com/LC-Linkous/chicken_swarm_python/tree/chicken_swarm_quantum)  | |
+| [pso_python](https://github.com/LC-Linkous/pso_python) | [pso_basic](https://github.com/LC-Linkous/pso_python/tree/pso_basic) | [pso_quantum](https://github.com/LC-Linkous/pso_python/tree/pso_quantum)  | all versions are options in [surrogate_model_optimization](https://github.com/LC-Linkous/surrogate_model_optimization)|
+| [cat_swarm_python](https://github.com/LC-Linkous/cat_swarm_python) | [sand_cat_python](https://github.com/LC-Linkous/cat_swarm_python/tree/sand_cat_python)| [cat_swarm_quantum](https://github.com/LC-Linkous/cat_swarm_python/tree/cat_swarm_quantum) |all versions are options in [surrogate_model_optimization](https://github.com/LC-Linkous/surrogate_model_optimization) |
+| [chicken_swarm_python](https://github.com/LC-Linkous/chicken_swarm_python) | [2015_improved_chicken_swarm](https://github.com/LC-Linkous/chicken_swarm_python/tree/improved_chicken_swarm) <br>2022 improved chicken swarm| [chicken_swarm_quantum](https://github.com/LC-Linkous/chicken_swarm_python/tree/chicken_swarm_quantum)  | all versions are options in [surrogate_model_optimization](https://github.com/LC-Linkous/surrogate_model_optimization)|
 | [sweep_python](https://github.com/LC-Linkous/sweep_python)  | *alternates in base repo | -  | - |
 | [bayesian optimization_python](https://github.com/LC-Linkous/bayesian_optimization_python)  | -| - | *interchangeable surrogate models <br> included in base repo |
-| [multi_glods_python](https://github.com/LC-Linkous/multi_glods_python)| - | - | |
+| [multi_glods_python](https://github.com/LC-Linkous/multi_glods_python)|   <br>   | - | multiGLODS option in [surrogate_model_optimization](https://github.com/LC-Linkous/surrogate_model_optimization)|
+
 
 **Objective Functions**
 
